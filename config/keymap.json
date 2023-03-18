@@ -14,7 +14,7 @@
       "&kp LSHFT ", "&kp Z  ", "&kp X  ", "&kp C  ", "&kp V  ", "&kp B  ", "&kp N  ", "&kp M  ", "&kp COMMA ", "&kp DOT ", "&kp FSLH   ", "&kp RSHFT ", "&kp UP", "&kp PG_DN",
       "&kp LCTRL ", "&kp LGUI ", "&kp LALT            ", "&kp SPACE                          ", "&mo 1 ", "&mo 1 ", "&mo 1 ", "&kp LEFT ", "&kp DOWN ", "&kp RIGHT"
     ], [
-     "&trans ", "&kp F1 ", "&kp F2 ", "&kp F3 ", "&kp F4 ", "&kp F5 ", "&kp F6 ", "&kp F7 ", "&kp  F8   ", "&kp  F9   ", "&kp F10  ", "&kp F11 ", "&kp F12 ", "&trans ", "&trans ",
+     "&trans ", "&kp F1 ", "&kp F2 ", "&kp F3 ", "&kp F4 ", "&kp F5 ", "&kp F6 ", "&kp F7 ", "&kp  F8   ", "&kp  F9   ", "&kp F10  ", "&kp F11 ", "&kp F12 ", "&trans ", "&kp C_PP ",
      "&bt BT_CLR ", "&bt BT_SEL 0 ", "&bt BT_SEL 1 ", "&bt BT_SEL 2 ", "&bt BT_SEL 3 ", "&bt BT_SEL 4 ", "&trans ", "&trans ", "&trans ", "&trans ", "&trans ", "&trans ", "&trans ", "&reset ", "&trans ",
      "&rgb_ug RGB_TOG ", "&rgb_ug RGB_HUI ", "&rgb_ug RGB_SAI ", "&rgb_ug RGB_BRI ", "&rgb_ug RGB_SPI ", "&trans ", "&trans ", "&trans ", "&trans ", "&trans ", "&trans ", "&trans ", "&bootloader ", "&kp HOME",
      "&rgb_ug RGB_EFF ", "&rgb_ug RGB_HUD ", "&rgb_ug RGB_SAD ", "&rgb_ug RGB_BRD ", "&rgb_ug RGB_SPD ", "&trans ", "&trans ", "&trans ", "&trans ", "&trans ", "&trans ", "&trans ", "&trans ", "&kp END ",

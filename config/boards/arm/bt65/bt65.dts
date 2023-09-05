@@ -87,10 +87,10 @@
 	};
 	encoder_1: encoder_1 {
 		compatible = "alps,ec11";
-		label = "ENCODER_ONE";
+		label = "encoder_1";
 		a-gpios = <&gpio0 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&gpio0 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		steps = <24>;
+		steps = <36>;
 		status = "okay";
 	};
 	encoder_2: encoder_2 {

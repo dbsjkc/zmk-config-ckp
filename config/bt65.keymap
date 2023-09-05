@@ -37,5 +37,14 @@
             		>;
 		        sensor-bindings = <&inc_dec_kp C_RW C_FF>;
 		};
+        	layer_2 {
+            		bindings = <
+				&trans  &trans    &trans     &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LBKT   &kp RIGHT_BRACKET  &trans  &trans
+				&trans  &kp SQT   &kp COMMA  &kp DOT  &kp P   &kp Y   &kp F   &kp G   &kp C   &kp R   &kp L   &kp FSLH   &kp EQUAL          &trans  &trans
+				&trans  &kp A     &kp O      &kp E    &kp U   &kp I   &kp D   &kp H   &kp T   &kp N   &kp S   &kp MINUS  &trans             &trans
+				&trans  &kp SEMI  &kp Q      &kp J    &kp K   &kp X   &kp B   &kp M   &kp W   &kp V   &kp Z   &trans     &trans             &tog 2
+        			&trans    &trans     &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            		>;
+        	};
 	};
 };

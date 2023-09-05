@@ -77,4 +77,14 @@
       ]
     }
   }
+    "sensors": [
+    {
+      "ref": "encoder_3",
+      "name": "encoder_3",
+      "identifier": "encoder_3",
+      "compatible": "alps,ec11",
+      "label": "encoder_3",
+      "enabled": true
+    }
+  ]
 }

@@ -10,7 +10,7 @@
 	keymap {
 		compatible = "zmk,keymap";
 
-		base {
+		default_layer {
 				// ------------------------------------------------------------------------------------------------------------
 				// |  `  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  |BKSP | INS		|
 				// | TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |   \    | DEL		|
@@ -45,6 +45,7 @@
 				&trans  &kp SEMI  &kp Q      &kp J    &kp K   &kp X   &kp B   &kp M   &kp W   &kp V   &kp Z   &trans     &trans             &tog 2
         			&trans    &trans     &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans
             		>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         	};
 	};
 };
